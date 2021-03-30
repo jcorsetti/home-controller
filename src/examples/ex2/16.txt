@@ -1,0 +1,8 @@
+5 16
+stato 1
+open 1
+term 4
+time 10
+delay 10
+perc 67
+temp 4

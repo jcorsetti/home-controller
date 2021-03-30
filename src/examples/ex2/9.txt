@@ -1,0 +1,6 @@
+1 9
+stato 1
+type 4
+2
+10.txt
+11.txt

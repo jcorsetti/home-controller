@@ -1,0 +1,5 @@
+1 21
+stato 0
+type 3
+1
+22.txt

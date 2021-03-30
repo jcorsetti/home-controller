@@ -1,0 +1,4 @@
+3 8
+stato 0
+switch 0
+time 0

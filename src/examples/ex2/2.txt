@@ -1,0 +1,7 @@
+2 2
+stato 0
+time_begin 1558859000
+time_end 1558859040
+type 3
+1
+3.txt
