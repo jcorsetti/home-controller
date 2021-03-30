@@ -1,0 +1,6 @@
+1 6
+stato 0
+type 5
+2
+12.txt
+7.txt

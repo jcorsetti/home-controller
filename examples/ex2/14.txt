@@ -1,0 +1,7 @@
+2 14
+stato 0
+time_begin 1558859015
+time_end 1558860060
+type 5
+1
+17.txt

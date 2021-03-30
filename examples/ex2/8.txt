@@ -1,0 +1,5 @@
+4 8
+stato 1
+open 0
+close 0
+time 0
