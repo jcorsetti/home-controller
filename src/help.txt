@@ -1,0 +1,29 @@
+
+Lista dei comandi:
+
+- list                      : Stampa tutti i dispositivi evidenziando graficamente la gerarchia.
+                              Per ogni device stampa nome, id e stato d'accensione.
+
+- add <device>              : Aggiunge un dispositivo del tipo specificato, con id assegnato dal sistema.
+                              Questo appare collegato alla centralina.
+
+- del <id>                  : Cerca ed elimina il device specificato e tutti i device eventualmente controllati.
+
+- link <id1> to <id2>       : Previo controllo della tipologia del device, questo comando stacca id1 (e i device controllati)
+                              Per ricollegarlo come device controllato da id2. In dettaglio, questo comando salva le informazioni
+                              dell'albero dei processi di id1 su file per poi ricostruirli, con id1 processo figlio di id2.
+
+- switch <id> <label> <pos> : Cambia l'interruttore <label> in posizione <pos> all'id specificato.
+                              Per modificare i campi begin e end il formato della nuova data è: gg-hh:mm (giorno, ore e minuti)
+                              ad esempio: switch <id> begin 23-15:30
+                              Per modificare lo stato di bulb, window, e fridge si deve indicare l'interruttore "main" mentre
+                              per la window si usa "open" e "close" che tornano subito ad "off"
+
+- info <id>                 : Restituisce in dettaglio lo stato attuale di un dispositivo.
+
+- quit / q                  : Termina il processo centralina e tutti i processi dei dispositivi.
+
+- all on                    : Accende tutti i dispositivi collegati alla centralina.
+
+- all off                   : Spegne tutti i dispositivi collegati alla centralina.
+

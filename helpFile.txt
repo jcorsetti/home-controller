@@ -1,0 +1,18 @@
+Comandi disponibili nel makefile:
+- help       : mostra a terminale helpFile.txt
+- build      : compila tutti i sorgenti per generare tutti gli eseguibili
+- controller : compila i sorgenti per l'esecuzione del controller
+- manual     : compila i sorgenti per l'esecuzione del comando manuale
+- hub        : compila i sorgenti per creare l'eseguibile dell'hub
+- timer      : compila i sorgenti per creare l'eseguibile del timer
+- bulb       : compila i sorgenti per creare l'eseguibile della lampadina
+- window     : compila i sorgenti per creare l'eseguibile della finestra
+- fridge     : compila i sorgenti per creare l'eseguibile del frigorifero
+- clean      : elimina tutti i file temporanei creati in tmp ed i file oggetto    
+
+Per lanciare il processo centralina in configurazione vuota è sufficiente eseguire il file controller.
+Con l'argomento -load <N> è possibile lanciare la centralina caricando l'esempio N, costituito da una 
+serie di dispositivi preimpostati. Ad esempio, lanciando ./controller -load 3 si caricheranno i file nella
+cartella src/examples/ex3.
+
+L'esecuzione del processo di controllo manuale (./manual) è possibile solo se la centralina è in esecuzione.
